@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index2.css">
+    <title>Action</title>
+</head>
+<body>
+    <div id = "nav0" >Welcome To P's Game Store</div>
+    <div id="nav"><table  width="100%" height ="10%" class="head2">
+        
+        <td>
+            <a href="https://pranavrao240.github.io/gamestore/"><img src="game logo2.jpg" class="border" width="200" height="200" ></a>
+
+        </td>
+        <tr>
+     
+            
+            <td  class="td1" width="10%" >
+               <h3>CATEGORIES</h3>
+            </td>
+            <td width="10%" class="text_style">  
+                <center><a href="https://pranavrao240.github.io/Not-Available/"><h3 >Arcade</h3></a></center>
+            </td>
+            <td class="text_style" width="10%" >
+                <center><a href="https://pranavrao240.github.io/Action/"><h3 >Action</h3></a></center>
+              
+            </td>
+            <td class="text_style" width="10%" >
+                <center><a href="https://pranavrao240.github.io/Not-Available/"><h3 >Board</h3></a></center>
+              
+            </td>
+            <td class="text_style" width="10%" >
+                <center><a href="https://pranavrao240.github.io/Not-Available/"><h3 >Card</h3></a></center>
+              
+            </td>
+            <td class="text_style" width="10%" >
+                <center><a href="https://pranavrao240.github.io/Not-Available/"><h3 >Racing</h3></a></center>
+              
+            </td>
+            <td class="text_style" width="10%" >
+                <center><a href="https://pranavrao240.github.io/sports-/"><h3 >Sports</h3></a></center>
+              
+            </td>
+           
+               
+           
+
+        </tr>
+    </table></div>
+    <div><h1 id="deco">Snake Game</h1>
+        <center>
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="home screen.jpg" style="width:100%">
+                <img class="mySlides" src="snk gm play img.jpg" style="width:100%">
+                <img class="mySlides" src="game over screen.jpg" style="width:100%">
+              
+            
+            </div>
+
+        </center>
+        <a href="snake game.rar"><h3 class="button">Install</h3></div></a>
+        
+
+    <script>
+        var myIndex = 0;
+          carousel();
+          
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            
+            
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); 
+            
+            
+        }
+    </script>
+</body>
+</html>
