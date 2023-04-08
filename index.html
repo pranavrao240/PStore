@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example</title>
+    
+    <style>
+        
+        @media screen and (min-width:0px) and (max-width:1080px) {
+            body{
+                background: linear-gradient(pink,rgb(179, 70, 88),rgb(150, 18, 40));
+                height: 300vh;
+            }
+        }
+        /* #nav{
+            margin-top: 10px;
+            border: black solid;
+            background-color: rgba(240, 248, 255, 0.352);
+            display: flex;
+            flex-direction: row;
+            
+            
+
+ 
+        } */
+        /* .navbar{
+            display: flex;
+            margin-left: 350px;
+            
+            
+            
+            
+            
+        } */
+        p{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        li{
+            list-style: none;
+
+        }
+        ul {
+            list-style: none;
+            display: none;
+        }
+        li:hover ul{
+            display: inline;
+            margin: 0px;
+            position: relative;
+            right: 12px;
+            top: 0px;
+            
+            
+            
+            
+        }
+        ul li{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 22px;
+            background-color: rgba(151, 147, 147, 0.781);
+            text-decoration: none;
+            color: black;
+            
+            
+            
+        }
+        ul li:hover{
+            text-decoration: underline;
+
+        }
+        .button{
+    
+    display: flex;
+    justify-content: center;
+    font-style:normal;
+    color:rgb(203, 229, 8);
+    background-color: rgb(94, 55, 221);
+    font-size: 60px;
+    box-shadow: 2px 2px 10px 5px green;
+    border-color: black;
+    border-radius: 0px;
+    border-left-width: 10px;
+    animation: box 5s infinite linear;
+    
+}
+@keyframes box {
+    0%{
+        box-shadow: 2px 2px 10px 5px green;
+        
+    }
+    35%{
+        box-shadow: 2px 2px 10px 5px rgb(12, 94, 181);
+
+    }
+    75%{
+        box-shadow: 2px 2px 10px 5px rgb(146, 2, 148);
+
+    }
+    
+}
+#nav0 {
+    
+    height: fit-content;
+    text-align: center;
+    font-size: xx-large;
+    background-color: aqua;
+    color: black;
+    box-shadow: 2px 2px 2px 2px black;
+    border-color: black;
+}
+#deco{
+    font-style: italic;
+    text-decoration: underline;
+    color: rgba(20, 174, 20, 0.878);
+    animation: text 7s infinite linear;
+
+}
+#logo{
+    position: absolute;
+    right: 337px;
+    box-shadow: 2px 2px 12px blue;
+    margin: 2px;
+    animation: animate 5s infinite linear ;
+    
+}
+@keyframes animate {
+    
+    0%{box-shadow: 2px 2px 12px rgb(82, 238, 10);}
+    25%{box-shadow: 2px 2px 12px blue;}
+    50%{box-shadow: 2px 2px 12px rgb(238, 255, 0);}
+    75%{box-shadow: 2px 2px 12px rgb(255, 0, 225);}
+    
+}
+a{
+    text-decoration: none;
+}
+/* #header{
+    text-decoration: underline;
+} */
+.button:hover{
+    text-decoration: underline;
+}
+
+
+        
+
+        
+        
+    </style>
+</head>
+<body>
+    <div id="nav">
+        
+        <div id="nav0">
+            <div id="header">Welcome To P's Game Store</div>
+            
+       
+        <nav class="navbar">
+            <li >
+                <img src="arrow-down.png" width="35px">
+                
+                <ul>
+                    <li id="logo"><a href="F:\pranav\IMP Documents\New folder\HTML,CSS,JS\CSS\game store\Action\Action\index.html"><img width="120px" height="110px" src="game logo2.jpg" alt=""></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="F:\pranav\IMP Documents\New folder\HTML,CSS,JS\CSS\game store\Action\sports\index.html">Sports</a></li>
+                    <li><a href="F:\pranav\IMP Documents\New folder\HTML,CSS,JS\CSS\game store\Action\arcade\index.html">Arcade</a></li>
+                    <li><a href="F:\pranav\IMP Documents\New folder\HTML,CSS,JS\CSS\game store\Action\Action\index.html">Action</a></li>
+                    <li><a href="#">Board</a></li>
+                </ul>
+                
+            </li>
+            
+        </nav>
+    </div>
+    </div>
+    
+    <div><h1 id="deco">Snake Game</h1>
+        
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="home screen.jpg" style="width:400px">
+                <img class="mySlides" src="snk gm play img.jpg" style="width:400px">
+                <img class="mySlides" src="game over screen.jpg" style="width:400px">
+              
+            
+            </div>
+
+        
+        <a href="snake game.rar"><h3 class="button">Install</h3></div></a>
+               
+        
+        <h1 style="color: rgb(81, 81, 233);text-decoration: underline;font-style: italic;">Pong Game</h1>
+        
+            <div class="w3-content w3-section" style="max-width:500px">
+                
+                <img class="mySlides2" src="game-icone.png" style="width:400px">
+                <img class="mySlides2" src="pong.jpg" style="width:400px">
+              
+                
+            </div>
+            
+        
+        <a href="pong gamez.exe"><h3 class="button">Install</h3></a>
+
+        <h1 style="color: rgb(81, 81, 233);text-decoration: underline;font-style: italic;">Breakout Game</h1>
+        
+            <div class="w3-content w3-section" style="max-width:500px">
+                
+                <img class="mySlides3" src="bkout1.jpg" style="width:400px">
+                <img class="mySlides3" src="bkout2.jpg" style="width:400px">
+              
+            
+            </div>
+
+        
+        <a href="brekout.exe"><h3 class="button">Install</h3></a>
+          
+          
+        
+    </div>
+
+        <script>
+            
+          var myIndex = 0;
+          carousel();
+          darousel();
+          earousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            
+            
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); 
+            
+            
+        }
+        function darousel(){
+            let j;
+            let y = document.getElementsByClassName("mySlides2");
+            
+            
+            for (j = 0; j < y.length; j++) {
+              y[j].style.display = "none";  
+            
+            }
+            myIndex++;
+            if (myIndex > y.length) {myIndex = 1}    
+            y[myIndex-1].style.display = "block";  
+            setTimeout(darousel, 2000); 
+            
+        }
+        function earousel(){
+            let j;
+            let y = document.getElementsByClassName("mySlides3");
+            
+            
+            for (j = 0; j < y.length; j++) {
+              y[j].style.display = "none";  
+            
+            }
+            myIndex++;
+            if (myIndex > y.length) {myIndex = 1}    
+            y[myIndex-1].style.display = "block";  
+            setTimeout(earousel, 2000); 
+            
+        }
+
+        </script>
+    
+
+    
+</body>
+</html>
